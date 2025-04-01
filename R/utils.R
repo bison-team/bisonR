@@ -182,5 +182,3 @@ col2rgba <- function(col, alpha) {
 }
 
 
-
-#### SAM's TEST
