@@ -56,7 +56,6 @@
 <li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="../search.json">
 </form></li>
-<li class="nav-item"><a class="external-link nav-link" href="https://github.com/JHart96/bisonR/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul>
 </div>
 
@@ -73,7 +72,7 @@
       <h1>Getting started</h1>
             
       
-      <small class="dont-index">Source: <a href="https://github.com/JHart96/bisonR/blob/main/vignettes/getting_started.Rmd" class="external-link"><code>vignettes/getting_started.Rmd</code></a></small>
+
       <div class="d-none name"><code>getting_started.Rmd</code></div>
     </div>
 
@@ -91,14 +90,14 @@ models to a simulated dataset, and show how the fitted edge weight model
 can be used to run dyadic and nodal regression analysis, as well as
 non-random edge weight tests.</p>
 <p>Before beginning, we’ll load in the <code>bisonR</code> package using
-<code><a href="https://jhart96.github.io/bisonR">library(bisonR)</a></code>, and we’ll also bring in <code>dplyr</code>
+<code><a href="https://bisonr.org" class="external-link">library(bisonR)</a></code>, and we’ll also bring in <code>dplyr</code>
 to help with data wrangling. If you don’t already have
 <code>bisonR</code> installed, you can install it from Github using the
 following code:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"JHart96/bisonR"</span><span class="op">)</span></span></code></pre></div>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://jhart96.github.io/bisonR">bisonR</a></span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://bisonr.org" class="external-link">bisonR</a></span><span class="op">)</span></span>
 <span><span class="co">#&gt; Loading required package: cmdstanr</span></span>
 <span><span class="co">#&gt; This is cmdstanr version 0.9.0</span></span>
 <span><span class="co">#&gt; - CmdStanR documentation and vignettes: mc-stan.org/cmdstanr</span></span>
@@ -225,14 +224,14 @@ weight model:</p>
 <span><span class="op">)</span></span>
 <span><span class="co">#&gt; Running MCMC with 4 parallel chains...</span></span>
 <span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; Chain 1 finished in 0.5 seconds.</span></span>
-<span><span class="co">#&gt; Chain 3 finished in 0.6 seconds.</span></span>
+<span><span class="co">#&gt; Chain 1 finished in 0.6 seconds.</span></span>
 <span><span class="co">#&gt; Chain 2 finished in 0.6 seconds.</span></span>
+<span><span class="co">#&gt; Chain 3 finished in 0.6 seconds.</span></span>
 <span><span class="co">#&gt; Chain 4 finished in 0.6 seconds.</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; All 4 chains finished successfully.</span></span>
 <span><span class="co">#&gt; Mean chain execution time: 0.6 seconds.</span></span>
-<span><span class="co">#&gt; Total execution time: 0.8 seconds.</span></span></code></pre></div>
+<span><span class="co">#&gt; Total execution time: 0.7 seconds.</span></span></code></pre></div>
 <p>Depending on your dataset this can take anywhere between a few tenths
 of a second and several hours. In particular if you have a large dataset
 and no observation-level predictors, it’s probably a good idea to use
@@ -518,7 +517,7 @@ difference as a predictor of edge weight, so we can run:</p>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Both chains finished successfully.</span></span>
 <span><span class="co">#&gt; Mean chain execution time: 0.0 seconds.</span></span>
-<span><span class="co">#&gt; Total execution time: 0.2 seconds.</span></span>
+<span><span class="co">#&gt; Total execution time: 0.1 seconds.</span></span>
 <span><span class="co">#&gt; Fitting imputed model 1</span></span>
 <span><span class="co">#&gt; Start sampling</span></span>
 <span><span class="co">#&gt; Fitting imputed model 2</span></span>
