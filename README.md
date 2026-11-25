@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> **This repository is archived.** bisonR development continues at **https://github.com/JHart96/bisonR**, and the documentation is at **https://bisonr.org**.
+> Install with `remotes::install_github("JHart96/bisonR")`. Please open issues and pull requests there.
+
 # bisonR - An R package for Bayesian Inference of Social Networks
 
 <img src="man/figures/hex.svg" width=160 align="right" />
